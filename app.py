@@ -198,8 +198,8 @@ st.markdown("""
 # ---------------------------------------------------------
 st.markdown("""
     <div class="hero-title-container">
-        <div class="hero-title">✨ Vizard Guns Data Auditor Pro</div>
-        <div class="hero-subtitle">Enterprise Data Verification & HTML Quality Suite</div>
+        <div class="hero-title">✨ Vizard Guns Data Auditor </div>
+       
     </div>
 """, unsafe_allow_html=True)
 
@@ -357,7 +357,7 @@ if uploaded_file is not None:
 
     st.markdown("<br>", unsafe_allow_html=True)
 
-    if st.button("🚀 Run Enterprise Data Audit", key="vizard_run_btn", type="primary"):
+    if st.button("🚀 Run Data Audit", key="vizard_run_btn", type="primary"):
         desc_position = df.columns.get_loc(desc_col)
         
         audit_cols = [
